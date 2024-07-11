@@ -53,8 +53,8 @@ services:
       # - FOUNDRY_PROXY_SSL=false
       # - FOUNDRY_RELEASE_URL=
       # - FOUNDRY_ROUTE_PREFIX=
-      # - FOUNDRY_SSL_CERT=
-      # - FOUNDRY_SSL_KEY=
+      - FOUNDRY_SSL_CERT=/data/ssl/certificate.crt
+      - FOUNDRY_SSL_KEY=/data/ssl/private.key
       - FOUNDRY_TELEMETRY=false
       # - FOUNDRY_UID=foundry
       # - FOUNDRY_UPNP=false
