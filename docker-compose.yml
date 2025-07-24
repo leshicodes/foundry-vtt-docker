@@ -15,8 +15,8 @@ services:
         source: /data/container-configs/foundryvtt/data
         target: /data
     environment:
-      - PUID=1000
-      - PGID=1000
+      # - PUID=1000
+      # - PGID=1000
       - TIMEZONE=US/Eastern
       # - FOUNDRY_PASSWORD=<your_password>    # Not Needed ; Using secrets.json
       # - FOUNDRY_USERNAME=<your_username>    # Not Needed ; Using secrets.json
