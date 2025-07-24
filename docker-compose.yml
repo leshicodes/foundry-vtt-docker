@@ -68,3 +68,13 @@ services:
     secrets:
       - source: config_json
         target: config.json
+    networks:
+      default:
+      mediaserver_network:
+        aliases:
+          - foundryvtt
+
+networks:
+  default:
+  mediaserver_network:
+    external: true
