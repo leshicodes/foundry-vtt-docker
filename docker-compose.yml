@@ -49,8 +49,8 @@ services:
       # - FOUNDRY_MINIFY_STATIC_FILES=
       # - FOUNDRY_PASSWORD_SALT=
       # - FOUNDRY_PROTOCOL=
-      # - FOUNDRY_PROXY_PORT=
-      # - FOUNDRY_PROXY_SSL=false
+      - FOUNDRY_PROXY_PORT=443
+      - FOUNDRY_PROXY_SSL=true
       # - FOUNDRY_RELEASE_URL=
       # - FOUNDRY_ROUTE_PREFIX=
       # - FOUNDRY_SSL_CERT=/data/ssl/certificate.crt
